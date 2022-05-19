@@ -28,6 +28,14 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+	
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<name>ProxyRepo</name>
+			<url>http://54.165.43.134:8081/repository/revision-proxy/</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		
