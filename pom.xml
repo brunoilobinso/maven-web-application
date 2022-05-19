@@ -33,7 +33,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>ProxyRepo</name>
-			<url>http://54.165.43.134:8081/repository/revision-proxy/</url>
+			<url>http://54.159.30.31:8081/repository/revision-proxy/</url>
 		</repository>
 	</repositories>
 
@@ -105,13 +105,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.165.43.134:8081/repository/revision-releases/</url>
+	      <url>http://54.159.30.31:8081/repository/revision-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.165.43.134:8081/repository/revision-snapshot/</url>
+	      <url>http://54.159.30.31:8081/repository/revision-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
