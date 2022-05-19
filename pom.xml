@@ -29,6 +29,14 @@
 
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<name>PorxyRepo</name>
+			<url>http://54.159.30.31:8081/repository/revision-proxy/</url>
+		</repository>
+	</repositories>
+	
 	<dependencies>
 		
 		<dependency>
